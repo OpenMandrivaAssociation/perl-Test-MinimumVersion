@@ -1,7 +1,7 @@
 
 %define realname   Test-MinimumVersion
 %define version    0.009
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{realname}
 Version:    %{version}
