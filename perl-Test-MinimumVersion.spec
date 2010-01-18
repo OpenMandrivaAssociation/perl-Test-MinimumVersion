@@ -1,5 +1,5 @@
 %define upstream_name    Test-MinimumVersion
-%define upstream_version 0.011
+%define upstream_version 0.013
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
