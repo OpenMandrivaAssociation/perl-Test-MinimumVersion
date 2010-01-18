@@ -11,7 +11,7 @@ Summary:    Does your code require newer perl than you think?
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires: perl(File::Find::Rule::perl)
+BuildRequires: perl(File::Find::Rule::Perl)
 BuildRequires: perl(Perl::MinimumVersion)
 BuildRequires: perl(Test::Tester)
 BuildRequires: perl(YAML::Tiny)
