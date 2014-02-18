@@ -1,14 +1,14 @@
 %define modname	Test-MinimumVersion
-%define modver	0.101080
+%define modver 0.101081
 
 Summary:	Does your code require newer perl than you think?
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-MinimumVersion-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(File::Find::Rule::Perl)
 BuildRequires:	perl(Perl::MinimumVersion)
@@ -36,4 +36,5 @@ Does your code require newer perl than you think?
 %doc Changes LICENSE README
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
 
