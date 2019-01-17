@@ -1,10 +1,10 @@
 %define modname	Test-MinimumVersion
-%define modver 0.101081
+%define modver 0.101082
 
 Summary:	Does your code require newer perl than you think?
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	8
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
