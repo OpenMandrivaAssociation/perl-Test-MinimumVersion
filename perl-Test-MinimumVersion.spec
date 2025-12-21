@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-MinimumVersion-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(File::Find::Rule::Perl)
 BuildRequires:	perl(Perl::MinimumVersion)
 BuildRequires:	perl(Test::Tester)
