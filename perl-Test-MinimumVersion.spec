@@ -1,14 +1,12 @@
 %define modname	Test-MinimumVersion
-%define modver 0.101082
-
 Summary:	Does your code require newer perl than you think?
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	1
+Version:	0.101082
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-MinimumVersion-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/%{modname}
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-MinimumVersion-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(File::Find::Rule::Perl)
@@ -21,7 +19,7 @@ BuildRequires:	perl-devel
 Does your code require newer perl than you think?
 
 %prep
-%setup -qn %{modname}-%{modver}
+%setup -qn %{modname}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
